@@ -1,0 +1,6 @@
+bazinga_geocoder:
+    providers:
+        acme:
+            factory: Bazinga\GeocoderBundle\ProviderFactory\GoogleMapsFactory
+            options:
+                api_key: 'AIzaSyAipPSD_ZgZOoJoPvxOjvG_6xNsvwtToCk'

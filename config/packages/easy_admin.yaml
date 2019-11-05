@@ -1,0 +1,10 @@
+easy_admin:
+    site_name: 'Test Store App'
+    entities:
+        StoreLocation:
+            class: App\Entity\StoreLocation
+            form:
+                fields:
+                    - employees
+                    - {property: address, type: App\Form\AddressType}
+
